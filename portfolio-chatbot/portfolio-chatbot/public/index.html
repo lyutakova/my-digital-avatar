@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[Your Name] — UX/UI Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Case study modal overlay -->
+  <div id="case-modal" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-panel">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close case study">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M12 4L4 12M4 4l8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <div class="layout">
+
+    <!-- Left sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <div class="avatar-ring">
+          <div class="avatar-initials">YN</div>
+        </div>
+        <h1 class="sidebar-name">[Your Name]</h1>
+        <p class="sidebar-role">UX / UI Designer</p>
+        <span class="status-pill">
+          <span class="status-dot"></span>
+          Open to work
+        </span>
+      </div>
+      <nav class="sidebar-nav">
+        <p class="nav-label">Quick questions</p>
+        <button class="nav-item" onclick="sendQuick('Tell me about yourself')">About me</button>
+        <button class="nav-item" onclick="sendQuick('Show me your portfolio')">Portfolio</button>
+        <button class="nav-item" onclick="sendQuick('What tools and skills do you have?')">Skills & tools</button>
+        <button class="nav-item" onclick="sendQuick('Walk me through your design process')">Design process</button>
+        <button class="nav-item" onclick="sendQuick('How can I hire you or get in touch?')">Hire me</button>
+      </nav>
+      <div class="sidebar-footer">
+        <a href="mailto:hello@yourname.com" class="footer-link">hello@yourname.com</a>
+        <a href="https://linkedin.com/in/yourname" target="_blank" class="footer-link">LinkedIn ↗</a>
+      </div>
+    </aside>
+
+    <!-- Chat area -->
+    <main class="chat-main">
+      <div class="chat-header">
+        <div class="chat-header-left">
+          <div class="header-dot"></div>
+          <span class="header-label">Digital avatar · always on</span>
+        </div>
+        <button class="clear-btn" onclick="clearChat()">Clear chat</button>
+      </div>
+
+      <div class="messages" id="messages" role="log" aria-live="polite" aria-label="Chat messages"></div>
+
+      <div class="input-area">
+        <textarea
+          id="user-input"
+          placeholder="Ask me anything…"
+          rows="1"
+          onkeydown="handleKey(event)"
+          oninput="autoResize(this)"
+          aria-label="Your message"
+        ></textarea>
+        <button class="send-btn" onclick="sendMessage()" aria-label="Send message">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 13V3M3 8l5-5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="js/projects.js"></script>
+  <script src="js/chat.js"></script>
+</body>
+</html>
