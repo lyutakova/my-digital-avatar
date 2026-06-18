@@ -6,10 +6,10 @@ const PROJECTS = {
   'design-system': {
     tag: 'Design Systems',
     title: 'Design System',
-    desc: 'A comprehensive component library for a fintech startup',
-    meta: { role: 'Lead Designer', year: '2023', client: 'Fintech Startup', tools: 'Figma, Storybook' },
-    overview: 'Built a full-scale design system from zero — covering foundations (color, type, spacing), 60+ components, and documentation — that unified the product across web and mobile.',
-    challenge: 'The team had three designers and four frontend engineers all working from different Figma files and component copies. Design-to-dev handoff was painful, inconsistencies crept into production, and onboarding new designers took weeks.',
+    desc: 'A comprehensive component library for Rieter digital products',
+    meta: { role: 'UI UX Designer', year: '2023', employee: 'Rieter', tools: 'Figma' },
+    overview: 'Built a full-scale design system from zero — covering foundations (color, type, spacing), 60+ components, and documentation — that unified the product across web, mobile and HMI.',
+    challenge: 'It was me as UX UI Designer and team of frontend engineers all working from one Figma file. Design-to-dev handoff was not that difficult at the end.',
     solution: 'I audited the existing UI, identified the 80% of patterns that covered 95% of use cases, and built a token-first system in Figma with auto-layout components. I worked closely with engineering to mirror the tokens in code, then ran workshops to onboard the team.',
     stats: [
       { num: '40%', label: 'Faster design-to-dev handoff' },
@@ -35,16 +35,16 @@ const PROJECTS = {
     outcome: 'Product teams can now switch themes in one variable file. Engineering ships brand-specific releases without touching component code. The token system became the model for the rest of the org.'
   },
 
-  'hmi-prototype': {
-    tag: 'Automotive UX',
-    title: 'HMI Prototype',
+  'hmi': {
+    tag: 'Spinning machines UX UI',
+    title: 'HMI for every spinning machine',
     desc: 'Human-machine interface for an electric vehicle dashboard',
-    meta: { role: 'UX/Interaction Designer', year: '2022', client: 'EV Manufacturer', tools: 'Figma, ProtoPie, Unity' },
-    overview: 'Designed the in-vehicle HMI for a new electric vehicle — covering the central display, driver cluster, and heads-up display — with a focus on glanceability and low cognitive load at speed.',
-    challenge: 'Drivers need critical information fast without distraction. The existing concept crammed too many data points onto the screen and used interaction patterns borrowed from smartphones — totally wrong for a 100km/h context.',
-    solution: 'I ran contextual research sessions (including ride-alongs) to understand real driver cognitive load. I reduced the primary screen to five information zones, introduced ambient lighting cues for range anxiety, and prototyped micro-interactions in ProtoPie for user testing.',
+    meta: { role: 'UX Designer', year: '2024', employee: 'Rieter', tools: 'Figma,' },
+    overview: 'Designed the HMI for Rieter spinning machines, focusing on clear information hierarchy, high glanceability, and low cognitive load in high-speed production environments.',
+    challenge: 'Operators need critical information instantly and without distraction, but the existing concept overloaded the screen with data and relied on smartphone-style interactions that are unsuitable for high-speed operation.',
+    solution: 'I synthesized insights from machine documentation, service reports, and internal expert reviews to model operator cognitive load, then simplified the main HMI into clear functional zones and prototyped key micro‑interactions for stakeholder validation.',
     stats: [
-      { num: '0.8s', label: 'Avg glance time (down from 2.1s)' },
+      { num: '0.8s', label: 'Reduced operator glance time for critical machine status information, improving at‑a‑glance readability during continuous high‑speed operation.' },
       { num: '91%', label: 'Task success in usability tests' },
       { num: '5', label: 'Primary information zones' }
     ],
