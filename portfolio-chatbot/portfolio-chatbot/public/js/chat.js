@@ -82,7 +82,7 @@ function showTyping() {
 
   const av = document.createElement('div');
   av.className = 'msg-av';
-  av.textContent = 'YN';
+  av.innerHTML = '<img src="photo.jpg" style="width:28px;height:28px;border-radius:50%;object-fit:cover;" />';
 
   const bubble = document.createElement('div');
   bubble.className = 'bubble';
