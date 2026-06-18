@@ -190,7 +190,7 @@ function clearChat() {
 
 // ── Initial greeting ───────────────────────────────────────────────────────────
 function addGreeting() {
-  addBotBubble("Hey there 👋 I'm [Your Name]'s digital avatar. Ask me about my projects, design process, skills — or how to get in touch. What would you like to know?");
+  addBotBubble("Hey there 👋 I'm [Tetiana]'s digital avatar. Ask me about my projects, design process, skills — or how to get in touch. What would you like to know?");
 }
 
 addGreeting();
