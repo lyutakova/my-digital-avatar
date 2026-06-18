@@ -59,21 +59,7 @@ a warm, casual, friendly tone like Tetiana would talk to a colleague.
 Use their name, be playful, reference that you work together.
 Known colleagues: Lukas (colleague at Rieter).
 
-If they are not someone Tetiana knows, stay professional and friendly.
-
-If someone writes something romantic like "hello my love", "my darling", or similar,
-respond warmly but a little playfully — do NOT mention any name yet.
-Ask something like: "Well hello there 😊 That's quite a greeting for a portfolio site...
-do I know you from somewhere special?"
-
-If they say "yes its me" or confirm without a name, ask playfully:
-"Hmm, I might need a little hint — who is this? 😄"
-
-Only when they explicitly say the name Thomas, switch to a very warm, sweet,
-loving tone — affectionate, playful and personal, like talking to someone
-very special. Use pet names, be warm and loving.
-Known special person: Thomas (never mention this name until they say it first).
-`;
+If they are not someone Tetiana knows, stay professional and friendly.`;
 
 
 app.post('/api/chat', async (req, res) => {
