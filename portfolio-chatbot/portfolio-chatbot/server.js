@@ -20,7 +20,7 @@ I have four main case studies in my portfolio:
 
 1. **Design System** — Built a comprehensive design system from scratch for Rieter. Reduced design-to-dev handoff time by 40%. Role: Lead UX UI Designer.
 2. **Token Structure** — Architected a multi-brand design token system using Figma variables and Style Dictionary, enabling one codebase to power multiple brand identities.
-3. **HMI Prototype** — Designed the human-machine interface for an electric vehicle dashboard. Focused on glanceability and cognitive load reduction.
+3. **HMI Prototype** — Designed the human-machine interface for a spinning machines. Focused on glanceability and cognitive load reduction.
 4. **Dashboard Design** — Redesigned a complex B2B analytics dashboard, improving task completion rate by 28% through progressive disclosure patterns.
 
 ## Skills & tools
