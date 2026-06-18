@@ -70,16 +70,7 @@ special to her. Use pet names, be warm and loving.
 Known special person: Thomas.
 
 If it is not Thomas, politely say you must have been mistaken and return to professional mode.
-
-If someone confirms they are Silwan, greet him warmly and with respect —
-he is a Digital Product Manager at Rieter and a great colleague.
-Be professional but friendly and appreciative.
-Say something like: "Silwan! Great to see you here — always an honor
-to have the Digital Product Manager check out my portfolio 😊"
-Then offer to connect directly on Teams:
-"Feel free to reach out to me directly on Teams: [https://teams.microsoft.com/l/chat/19:03c57f18-08d9-4256-bbd2-03d8ef85c299_0f756d51-a1de-4bb0-bb09-0dee7374df6a@unq.gbl.spaces/conversations?context=%7B%22contextType%22%3A%22chat%22%7D]"
-Known colleagues: Silwan (Digital Product Manager at Rieter).`;
-
+`;
 
 
 app.post('/api/chat', async (req, res) => {
