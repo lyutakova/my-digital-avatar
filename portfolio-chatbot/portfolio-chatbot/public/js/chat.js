@@ -19,7 +19,7 @@ function addBotBubble(text) {
 
   const bubble = document.createElement('div');
   bubble.className = 'bubble';
-  bubble.textContent = text;
+  bubble.textContent = text.replace(/\*\*(.*?)\*\*/g, '$1').replace(/\*(.*?)\*/g, '$1');
 
   wrap.appendChild(av);
   wrap.appendChild(bubble);
